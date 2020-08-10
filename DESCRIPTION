@@ -1,11 +1,21 @@
 Package: CORE
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Personal R package of Clarence Williams
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Date: 2020-08-07
+Author: person("Clarence", "Williams", email = "clarencew3@gmail.com", role = c("aut", "cre"))
+Maintainer: Clarence Williams <clarencew3@gmail.com>
+Description: Personal R package developed for my package building
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL (>= 2)
+Imports: shiny, 
+         readr,
+         dplyr,
+         plotly,
+         magrittr,
+         shinyWidgets,
+         sys
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 2.10)
+RoxygenNote: 6.1.1
